@@ -4,6 +4,8 @@ kind: HelmRelease
 metadata:
   name: access-control
   namespace: backbase
+  annotations:
+    fluxcd.io/automated: "true"
 spec:
   helmVersion: v3
 
